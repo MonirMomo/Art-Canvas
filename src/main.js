@@ -8,7 +8,7 @@ const toggleGuide = document.getElementById("toggleGuide");
 const clearButton = document.getElementById("clearButton");
 const drawingContext = canvas.getContext("2d");
 
-const CELL_SIDE_COUNT = 5;
+const CELL_SIDE_COUNT = 10;
 const cellPixelLength = canvas.width / CELL_SIDE_COUNT;
 const colorHistory = {};
 
